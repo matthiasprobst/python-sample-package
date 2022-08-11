@@ -1,8 +1,10 @@
 # Sample project
 
-*Note, that the repository is under current development!*
+Sample project including general package structure, testing with pytest and documentation with sphinx.
 
-Describe the project here.
+If you want to create your own package, you can use this project as starting point.
+
+*Note, that the repository is under current development!*
 
 ## Installation
 If you use `anaconda`, you may first create an environment:
