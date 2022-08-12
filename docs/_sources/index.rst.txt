@@ -32,10 +32,10 @@ You may install optional dependencies:
 
 .. code:: sh
 
-   python3.8 -m pip install "samplepackage[scipy]"  # installs dependencies to convert datasets to vtk
-   python3.8 -m pip install "samplepackage[test]"  # installs pytecplot to build tecplot-readable HDF5 files
-   python3.8 -m pip install "samplepackage[docs]"  # installs e.g. netCDF4 which isneeded to convt n files
-   python3.8 -m pip install "samplepackage[complete]"  # installs all avbove plus dependencies for testing and documentation
+   python3.8 -m pip install "samplepackage[scipy]"  # installs scipy
+   python3.8 -m pip install "samplepackage[test]"  # installs dependencies needed for test
+   python3.8 -m pip install "samplepackage[docs]"  # installs dependencies needed for build the docs
+   python3.8 -m pip install "samplepackage[complete]"  # installs all avbove
 
 
 .. toctree::
