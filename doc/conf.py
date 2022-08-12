@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath('../..'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'sampleproject'
+project = 'samplepackage'
 copyright = '2022, Matthias Probst'
 author = 'Matthias Probst'
 
@@ -52,7 +52,7 @@ autodoc_member_order = 'bysource'
 html_theme = 'sphinx_book_theme'  # 'sphinx_rtd_theme'
 tml_context = {
     "github_user": "matthiasprobst",
-    "github_repo": "python-sample-project",
+    "github_repo": "python-sample-package",
     "github_version": "main",
     "doc_path": "doc",
 }
@@ -61,7 +61,7 @@ tml_context = {
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = dict(
-    repository_url="https://github.com/matthiasprobst/python-sample-project",
+    repository_url="https://github.com/matthiasprobst/python-sample-package",
     repository_branch="main",
     path_to_docs="doc",
     use_edit_page_button=False,

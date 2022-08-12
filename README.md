@@ -1,8 +1,8 @@
-# Sample project
+# Sample package
 
-Sample project including general package structure, testing with pytest and documentation with sphinx.
+Sample package including general package structure, testing with pytest and documentation with sphinx.
 
-If you want to create your own package, you can use this project as starting point.
+If you want to create your own package, you can use this package as starting point.
 
 *Note, that the repository is under current development!*
 
@@ -10,7 +10,7 @@ If you want to create your own package, you can use this project as starting poi
 If you use `anaconda`, you may first create an environment:
 
      conda create -n sampleprojet python=3.8
-     conda activate sampleproject
+     conda activate samplepackage
 
 Navigate to the repository directory.
 

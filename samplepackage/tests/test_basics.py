@@ -1,6 +1,6 @@
 import unittest
 
-from sampleproject import __version__
+from samplepackage import __version__
 
 
 class TestBasics(unittest.TestCase):

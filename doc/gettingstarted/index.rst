@@ -9,4 +9,4 @@ Let's get started
     :hidden:
 
     gettingstarted.ipynb
-    subpackage/index
+    index
