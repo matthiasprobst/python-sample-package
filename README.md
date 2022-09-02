@@ -42,9 +42,4 @@ This will create a folder `covhtml/` with an `index.html` file in it.
 
 
 ## Contribution
-Feel free to contribute. Make sure to write `docstrings` to your methods and classes and please write 
-tests and use PEP 8 (https://peps.python.org/pep-0008/)
-
-Please use the **numpy style for the docstrings**: https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html#example-numpy
-
-
+Feel free to contribute.
