@@ -1,9 +1,9 @@
 import unittest
 
-from samplepackage import __version__
+from samplepackage.sub_package import hello_world
 
 
 class TestBasics(unittest.TestCase):
 
-    def test_version(self):
-        self.assertEqual(__version__, '0.1.0')
+    def test_helloworld(self):
+        self.assertEqual(hello_world.say_hi(), 'hi')
