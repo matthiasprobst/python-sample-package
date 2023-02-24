@@ -2,7 +2,7 @@
 
 Sample package including general package structure, testing with pytest and documentation with sphinx.
 
-If you want to create your own package, you can use this package as starting point.
+If you want to create your own package, you can use this package as a starting point.
 
 *Note, that the repository is under current development!*
 
