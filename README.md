@@ -21,7 +21,7 @@ otherwise
 
     pip install ".[complete]"
 
-To only install special functionality, e.g. only vtk support in addition to core dependendies, run:
+To only install special functionality, e.g. only vtk support in addition to core dependencies, run:
 
     pip install (-e) ".[docs]"
 
