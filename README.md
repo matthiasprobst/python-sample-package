@@ -35,3 +35,23 @@ Go [here](samplepackage/tests/README.md) for instructions on how to run tests.
 
 ## Contribution
 Feel free to contribute.
+
+## Publishing
+See [here](https://packaging.python.org/tutorials/packaging-projects/) for more information.
+Here's a quick summary:
+
+```python
+# generate distribution packages
+python -m pip install --upgrade build
+python -m build
+
+# upload to pypi
+python -m pip install --upgrade twine
+python -m twine upload --repository testpypi dist/*
+
+# Install from testpypi:
+py -m pip install --index-url https://test.pypi.org/simple/ --no-deps example-package-YOUR-USERNAME-HERE
+
+# If everything worked until here, upload to pip:
+python -m twine upload dist/*
+```
