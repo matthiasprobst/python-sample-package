@@ -1,0 +1,4 @@
+-e .
+-r requirements.txt
+pytest~=6.0.0
+pytest-cov
