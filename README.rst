@@ -71,5 +71,5 @@ GitHub Actions
 To get code coverage, you need to add a token to your repository secrets. Go to
 https://app.codecov.io/gh/matthiasprobst/python-sample-package/new
 
-.. |Codecov| image:: https://codecov.io/gh/matthiasprobst/python-sample-package/branch/master/graph/badge.svg
+.. |Codecov| image:: https://codecov.io/gh/matthiasprobst/python-sample-package/branch/dev/graph/badge.svg
     :target: https://codecov.io/gh/matthiasprobst/python-sample-package
