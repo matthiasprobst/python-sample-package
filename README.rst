@@ -1,4 +1,5 @@
-# Sample package
+Sample package
+==============
 
 |Codecov|
 
@@ -8,7 +9,8 @@ If you want to create your own package, you can use this package as a starting p
 
 *Note, that the repository is under current development!*
 
-## Installation
+Installation
+------------
 If you use `anaconda`, you may first create an environment:
 
      conda create -n sampleprojet python=3.8
@@ -19,6 +21,7 @@ Navigate to the repository directory.
 For development:
 
     pip install -e ".[complete]"
+
 otherwise
 
     pip install ".[complete]"
@@ -28,38 +31,42 @@ To only install special functionality, e.g. only vtk support in addition to core
     pip install (-e) ".[docs]"
 
 
-## Documentation
+Documentation
+-------------
 Documentation can be build following the README.md in the doc/ folder
 
-## Testing
+Testing
+-------
 Go [here](samplepackage/tests/README.md) for instructions on how to run tests.
 
 
-## Contribution
+Contribution
+------------
 Feel free to contribute.
 
-## Publishing
+Publishing
+----------
 See [here](https://packaging.python.org/tutorials/packaging-projects/) for more information.
 Here's a quick summary:
 
-```python
-# generate distribution packages
-python -m pip install --upgrade build
-python -m build
+    # generate distribution packages
+    python -m pip install --upgrade build
+    python -m build
 
-# upload to pypi
-python -m pip install --upgrade twine
-python -m twine upload --repository testpypi dist/*
+    # upload to pypi
+    python -m pip install --upgrade twine
+    python -m twine upload --repository testpypi dist/*
 
-# Install from testpypi:
-py -m pip install --index-url https://test.pypi.org/simple/ --no-deps example-package-YOUR-USERNAME-HERE
+    # Install from testpypi:
+    py -m pip install --index-url https://test.pypi.org/simple/ --no-deps example-package-YOUR-USERNAME-HERE
 
-# If everything worked until here, upload to pip:
-python -m twine upload dist/*
-```
+    # If everything worked until here, upload to pip:
+    python -m twine upload dist/*
 
-## GitHub Actions
+
+GitHub Actions
+--------------
 [Quickstart](https://docs.github.com/en/actions/quickstart)
 
-.. |Codecov| image:: https://codecov.io/gh/matthiasprobst/samplepcakge/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/matthiasprobst/samplepcakge
+.. |Codecov| image:: https://codecov.io/gh/matthiasprobst/python-sample-package/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/matthiasprobst/python-sample-package
