@@ -15,7 +15,6 @@ jobs:
       matrix:
         os: [ ubuntu-latest, windows-latest ]
         python-version: ['3.7', '3.8', '3.9', '3.10']
-
     steps:
     - uses: actions/checkout@v1
     - name: Set up Python ${{ matrix.python-version }}
