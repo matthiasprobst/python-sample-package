@@ -1,5 +1,7 @@
 # Sample package
 
+|Codecov|
+
 Sample package including general package structure, testing with pytest and documentation with sphinx.
 
 If you want to create your own package, you can use this package as a starting point.
@@ -55,3 +57,9 @@ py -m pip install --index-url https://test.pypi.org/simple/ --no-deps example-pa
 # If everything worked until here, upload to pip:
 python -m twine upload dist/*
 ```
+
+## GitHub Actions
+[Quickstart](https://docs.github.com/en/actions/quickstart)
+
+.. |Codecov| image:: https://codecov.io/gh/matthiasprobst/samplepcakge/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/matthiasprobst/samplepcakge
