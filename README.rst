@@ -16,6 +16,8 @@ If you use `anaconda`, you may first create an environment:
      conda create -n sampleprojet python=3.8
      conda activate samplepackage
 
+Here's a conda [cheatsheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html).
+
 Navigate to the repository directory.
 
 For development:
