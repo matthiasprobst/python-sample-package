@@ -12,6 +12,7 @@ If you want to create your own package, you can use this package as a starting p
 Installation
 ------------
 If you use `anaconda`, you may first create an environment:
+::
 
      conda create -n sampleprojet python=3.8
      conda activate samplepackage
@@ -21,14 +22,17 @@ Here's a conda [cheatsheet](https://docs.conda.io/projects/conda/en/latest/user-
 Navigate to the repository directory.
 
 For development:
+::
 
     pip install -e ".[complete]"
 
 otherwise
+::
 
     pip install ".[complete]"
 
 To only install special functionality, e.g. only vtk support in addition to core dependencies, run:
+::
 
     pip install (-e) ".[docs]"
 
@@ -50,6 +54,7 @@ Publishing
 ----------
 See [here](https://packaging.python.org/tutorials/packaging-projects/) for more information.
 Here's a quick summary:
+::
 
     # generate distribution packages
     python -m pip install --upgrade build
