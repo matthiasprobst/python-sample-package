@@ -1,7 +1,7 @@
 Sample package
 ==============
 
-|Codecov|
+[![Code coverage](https://codecov.io/gh/matthiasprobst/python-sample-package/branch/dev/graph/badge.svg)](https://codecov.io/gh/matthiasprobst/python-sample-package)
 
 Sample package including general package structure, testing with pytest and documentation with sphinx.
 
@@ -36,14 +36,15 @@ To only install special functionality, e.g. only vtk support in addition to core
 
     pip install (-e) ".[docs]"
 
-
 Documentation
 -------------
 Documentation can be build following the README.md in the doc/ folder
 
 Testing
 -------
-Go [here](samplepackage/tests/README.md) for instructions on how to run tests.
+
+Go [here](./samplepackage/tests/README.md>) for instructions on how to run tests.
+
 
 
 Contribution
@@ -52,8 +53,7 @@ Feel free to contribute.
 
 Publishing
 ----------
-See [here](https://packaging.python.org/tutorials/packaging-projects/) for more information.
-Here's a quick summary:
+See [here](https://packaging.python.org/tutorials/packaging-projects/) for more information. Here's a quick summary:
 ::
 
     # generate distribution packages
@@ -70,14 +70,10 @@ Here's a quick summary:
     # If everything worked until here, upload to pip:
     python -m twine upload dist/*
 
-
 GitHub Actions
 --------------
 [Quickstart](https://docs.github.com/en/actions/quickstart)
 
-To get code coverage, you need register at codecov.io and add a token to your repository secrets. Everything
-will be explained [here](https://app.codecov.io/gh/<github-account>/<your-repo-name>/new)
+To get code coverage, you need register at codecov.io and add a token to your repository secrets. Everything will be
+explained [here](https://app.codecov.io/gh/<github-account>/<your-repo-name>/new)
 Then add the image to your README file.
-
-.. |Codecov| image:: https://codecov.io/gh/matthiasprobst/python-sample-package/branch/dev/graph/badge.svg
-    :target: https://codecov.io/gh/matthiasprobst/python-sample-package
