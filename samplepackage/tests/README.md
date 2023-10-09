@@ -11,4 +11,4 @@ This will create a folder `covhtml/` with an `index.html` file in it.
 
 Also, you might want to run `pylint` (static code analysis):
 
-    pylint h5rdmtoolbox --output=.pylint
+    pylint samplepackage --output=.pylint
