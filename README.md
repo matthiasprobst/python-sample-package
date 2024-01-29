@@ -9,6 +9,9 @@ If you want to create your own package, you can use this package as a starting p
 
 *Note, that the repository is under current development!*
 
+*Please fill out the codemeta.json file. It describes the metadata of your package according to
+the [CodeMeta Project](https://codemeta.github.io/).*
+
 Installation
 ------------
 If you use `anaconda`, you may first create an environment:
